@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">	
+	<script type="text/javascript" src="nav.js" defer></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="primary-header flex" id="header-top">
+		<img src="images/logo.png" class="logo">
+		<button aria-controls="primary-navigation" aria-expanded="false" class="mobile-nav-toggle">
+			<span class="sr-only"></span>
+		</button>
+		<nav>
+			<ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+				<li class="active">
+					<a href="#header-top">
+						Home
+					</a>
+				</li>
+				<li class="active">
+					<a href="#project">
+						Projects
+					</a>
+				</li>
+				<li class="active">
+					<a href="#footer">
+						Contact Me
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="background" class="shapedividers_com-6780">
+		<div class="background-text">
+			<h1>Welcome</h1>
+			<br>
+			<p>My name is Jeb Adrian Trabado a Civil Engineer. I've just started 
+				<br>learning python and other programming languages in late 2021.
+				<br>I'll be using this website to archive my projects.</p>
+			<div class="background-btn">
+				<a href="#">
+					<span></span>
+				    <span></span>
+				    <span></span>
+				    <span></span>
+					My Resume
+				</a>
+			</div>
+		</div>
+		<div class="skills-text">
+			<h2>My Skills</h2>
+			<div class="skill-list">
+				<p>Python <i class="fab fa-python"></i>, HTML <i class="fab fa-html5"></i>, CSS3 <i class="fab fa-css3-alt"></i>,</p>
+				<p>Javascript <i class="fab fa-js-square"></i></p>
+			</div>
+		</div>
+	</section>
+	<p id="project"></p>
+	<section class="project-background">
+		<div class="projects-text">
+			<h2>My Projects</h2><br>
+			<p>These are the projects that I have completed:</p>
+		</div>
+		<div class="container">
+			<div class="card">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>	
+				<div><img src="images/project1.jpg"></div>
+				<div class="content">
+					<h3>Automated Quant Analysis</h3>
+					<hr>
+					<p>Scrapes financial data then computes certain values given in the program and exports it in a csv file.</p>
+					<a href="https://github.com/jebtrabado/jebtrabado.projects/tree/main/Quantitative%20Screener">read more</a>
+				</div>
+			</div>	
+		</div>	
+	</section>	
+	<section id="footer">
+		<div class="row">	
+			<div class="footer-left">
+				<h4>My Blog</h4>
+				<br>
+				<h5>I'll use this blog to archive my company valuations <br>for the PSE stocks.</h5>
+				<div class="background-btn2">
+					<a href="#">
+						Check My Blog
+					</a>
+				</div>
+			</div>	
+			<div class="footer-right">
+				<h4>Contact Me</h4>
+				<h5>Want to get in touch?</h5>
+				<h5 class="footer-gap">jebtrabado@gmail.com 
+					<i class="fas fa-envelope"></i>
+					<br>
+					<a href="https://www.reddit.com/r/Hololive/" class="linkin">Jeb Adrian Trabado <i class="fab fa-linkedin"></i>
+					</a>
+				</h5>
+			</div>
+		</div>	
+
+	</section>
+	<div class="foot">Made by Me 2021</div>
+</body>
+</html>
